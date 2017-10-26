@@ -1,0 +1,17 @@
+@import "vendor/reset";
+
+
+@import "regions/home.scss";
+@import "regions/portItem.scss";
+
+* {
+  min-height: 0;
+  min-width: 0;
+}
+
+main{
+  width: 100%;
+  top: 0;
+  position: absolute;
+  min-height: 100vh;
+}
