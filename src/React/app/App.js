@@ -12,7 +12,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-
+      projects : AppData
     }
   }
 
@@ -46,7 +46,7 @@ class App extends Component {
 								<Route
 									path="/portitem/:id"
 									render={props => (
-										<PortItem {...props}  />
+										<PortItem {...props} projects={this.state.projects}  />
 									)}
 								/>
 								<Route render={props => (

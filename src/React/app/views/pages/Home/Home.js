@@ -108,7 +108,7 @@ class Home extends Component{
         </div>
         <div className="contact">
           <h1 onClick={() => this.handleActive("contact")} className="links"> CONT@CT </h1>
-          <div className="contact__content">
+          <div className={"contact__content " + (this.state.active === "contact" ? " contactActive " : "")}>
             <a href="mailto:pmarko.alt@gmail.com?subject=Introduction">Pmarko.alt@gmail.com</a>
             <a href="https://www.linkedin.com/in/peter-markoski/" target="_blank"> LinkedIn </a>
             <a href="https://teamtreehouse.com/petermarkoski" target="_blank"> Team TreeHouse </a>

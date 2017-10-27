@@ -1,0 +1,79 @@
+.portItem{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  &__imageCont{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__image{
+      width: 800px;
+      border: 1px solid #b1b1b1;
+      box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &__textCont{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+
+    &__headerCont{
+      margin-left: 100px;
+      margin-top: 20px;
+
+      &__header{
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+      }
+
+      &__linkCont{
+
+        &__link{
+          font-size: 20px;
+          font-family: sans-serif;
+          text-decoration: none;
+          transition: all .5s;
+        }
+
+        &__link:hover{
+          color: #fc049c;
+        }
+      }
+    }
+
+    &__text{
+      margin-top: 20px;
+      width: 50vw;
+      font-family: sans-serif;
+      font-size: 20px;
+      margin-left: 50px;
+      line-height: 25px;
+    }
+  }
+}
+
+
+.back{
+  position: absolute;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  top: 50px;
+  left: 50px;
+  color: #777777;
+  transition: all .5s;
+}
+
+.back:hover{
+  color: #fc049c;
+}

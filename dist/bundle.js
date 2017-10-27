@@ -84,7 +84,7 @@
 
 
 	// module
-	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na {\n  color: black; }\n\n/* Globally */\n/* Each state */\na:visited {\n  text-decoration: none;\n  color: black; }\n\na:hover {\n  text-decoration: none;\n  color: black; }\n\na:focus {\n  text-decoration: none;\n  color: black; }\n\na:hover, a:active {\n  text-decoration: none;\n  color: black; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n#home {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin-left: 100px; }\n\n.info__content {\n  width: 50vw;\n  margin-top: 0px;\n  margin-bottom: 0px;\n  box-shadow: 0px 0px #c5c5c580;\n  transition: all 1s;\n  overflow: hidden;\n  height: 0px; }\n  .info__content__text {\n    font-family: sans-serif;\n    font-size: 18px;\n    line-height: 28px;\n    margin: 10px;\n    padding: 10px;\n    color: #777777; }\n\n.infoActive {\n  box-shadow: -1px 1px 6px 1px #c5c5c580;\n  height: 200px;\n  margin-top: 10px;\n  margin-bottom: 10px; }\n\n.work__content {\n  display: flex;\n  flex-direction: row;\n  transition: height 1s;\n  height: 0px;\n  overflow: hidden; }\n  .work__content__text {\n    width: 40%;\n    margin-top: 20px;\n    display: flex;\n    flex-direction: row; }\n    .work__content__text__selected {\n      font-family: sans-serif;\n      font-size: 25px;\n      font-weight: 600;\n      margin-right: 5vw; }\n    .work__content__text__list {\n      color: #777777;\n      font-family: sans-serif;\n      font-size: 18px; }\n  .work__content__images {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 60%;\n    position: relative; }\n    .work__content__images__item {\n      width: 600px;\n      position: absolute;\n      opacity: 0;\n      transition: all .2s; }\n\n.listItem {\n  font-family: sans-serif;\n  font-size: 25px;\n  font-weight: 600;\n  line-height: 30px;\n  color: #bdbdbd;\n  transition: all .5s; }\n\n.listItem:hover {\n  color: #fc049c; }\n\n.workActive {\n  height: 200px; }\n\n.titles {\n  font-family: sans-serif;\n  font-size: 50px;\n  font-weight: 600; }\n\n.links {\n  font-family: sans-serif;\n  font-size: 50px;\n  font-weight: 600;\n  color: #bdbdbd;\n  transition: .5s all; }\n\n.links:hover {\n  color: #fc049c; }\n\n.displayImage {\n  opacity: 1 !important; }\n\n#amp {\n  width: 200px;\n  position: absolute;\n  opacity: 0;\n  transition: .2s all; }\n\n#doughnut {\n  position: absolute;\n  opacity: 0;\n  transition: .2s all; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\nmain {\n  width: 100%;\n  top: 0;\n  position: absolute;\n  min-height: 100vh; }\n", ""]);
+	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na {\n  color: black; }\n\n/* Globally */\n/* Each state */\na:visited {\n  text-decoration: none;\n  color: black; }\n\na:hover {\n  text-decoration: none;\n  color: black; }\n\na:focus {\n  text-decoration: none;\n  color: black; }\n\na:hover, a:active {\n  text-decoration: none;\n  color: black; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n#home {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin-left: 100px; }\n\n.info__content {\n  width: 50vw;\n  margin-top: 0px;\n  margin-bottom: 0px;\n  box-shadow: 0px 0px #c5c5c580;\n  transition: all 1s;\n  overflow: hidden;\n  height: 0px; }\n  .info__content__text {\n    font-family: sans-serif;\n    font-size: 18px;\n    line-height: 28px;\n    margin: 10px;\n    padding: 10px;\n    color: #777777; }\n\n.infoActive {\n  box-shadow: -1px 1px 6px 1px #c5c5c580;\n  height: 200px;\n  margin-top: 10px;\n  margin-bottom: 10px; }\n\n.work__content {\n  display: flex;\n  flex-direction: row;\n  transition: height 1s;\n  height: 0px;\n  overflow: hidden; }\n  .work__content__text {\n    width: 40%;\n    margin-top: 20px;\n    display: flex;\n    flex-direction: row; }\n    .work__content__text__selected {\n      font-family: sans-serif;\n      font-size: 25px;\n      font-weight: 600;\n      margin-right: 5vw; }\n    .work__content__text__list {\n      color: #777777;\n      font-family: sans-serif;\n      font-size: 18px; }\n  .work__content__images {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 60%;\n    position: relative; }\n    .work__content__images__item {\n      width: 600px;\n      position: absolute;\n      opacity: 0;\n      transition: all .2s; }\n\n.listItem {\n  font-family: sans-serif;\n  font-size: 25px;\n  font-weight: 600;\n  line-height: 30px;\n  color: #bdbdbd;\n  transition: all .5s; }\n\n.listItem:hover {\n  color: #fc049c; }\n\n.workActive {\n  height: 200px; }\n\n.titles {\n  font-family: sans-serif;\n  font-size: 50px;\n  font-weight: 600; }\n\n.links {\n  font-family: sans-serif;\n  font-size: 50px;\n  font-weight: 600;\n  color: #bdbdbd;\n  transition: .5s all; }\n\n.links:hover {\n  color: #fc049c; }\n\n.displayImage {\n  opacity: 1 !important; }\n\n#amp {\n  width: 200px;\n  position: absolute;\n  opacity: 0;\n  transition: .2s all; }\n\n#doughnut {\n  position: absolute;\n  opacity: 0;\n  transition: .2s all; }\n\n.portItem {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  flex-direction: column; }\n  .portItem__imageCont {\n    width: 100%;\n    margin-top: 100px;\n    display: flex;\n    justify-content: center;\n    align-items: center; }\n    .portItem__imageCont__image {\n      width: 800px;\n      border: 1px solid #b1b1b1;\n      box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15); }\n  .portItem__textCont {\n    display: flex;\n    flex-direction: row;\n    margin-left: 50px;\n    margin-right: 50px;\n    justify-content: space-between; }\n    .portItem__textCont__headerCont {\n      margin-left: 100px;\n      margin-top: 20px; }\n      .portItem__textCont__headerCont__header {\n        font-family: sans-serif;\n        font-size: 40px;\n        font-weight: 600; }\n      .portItem__textCont__headerCont__linkCont__link {\n        font-size: 20px;\n        font-family: sans-serif;\n        text-decoration: none;\n        transition: all .5s; }\n      .portItem__textCont__headerCont__linkCont__link:hover {\n        color: #fc049c; }\n    .portItem__textCont__text {\n      margin-top: 20px;\n      width: 50vw;\n      font-family: sans-serif;\n      font-size: 20px;\n      margin-left: 50px;\n      line-height: 25px; }\n\n.back {\n  position: absolute;\n  font-size: 40px;\n  text-decoration: none;\n  font-family: sans-serif;\n  font-weight: 600;\n  top: 50px;\n  left: 50px;\n  color: #777777;\n  transition: all .5s; }\n\n.back:hover {\n  color: #fc049c; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\nmain {\n  width: 100%;\n  top: 0;\n  position: absolute;\n  min-height: 100vh; }\n\na {\n  color: #777777;\n  text-decoration: none; }\n\na:visited {\n  color: #777777; }\n", ""]);
 
 	// exports
 
@@ -30485,6 +30485,8 @@
 	  value: true
 	});
 
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	var _react = __webpack_require__(6);
@@ -30524,7 +30526,9 @@
 
 	    var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
 
-	    _this.state = {};
+	    _this.state = {
+	      projects: _AppData2.default
+	    };
 	    return _this;
 	  }
 
@@ -30534,6 +30538,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
+	      var _this2 = this;
 
 	      return _react2.default.createElement(
 	        'main',
@@ -30564,7 +30569,7 @@
 	                _react2.default.createElement(_reactRouterDom.Route, {
 	                  path: '/portitem/:id',
 	                  render: function render(props) {
-	                    return _react2.default.createElement(_pages.PortItem, props);
+	                    return _react2.default.createElement(_pages.PortItem, _extends({}, props, { projects: _this2.state.projects }));
 	                  }
 	                }),
 	                _react2.default.createElement(_reactRouterDom.Route, { render: function render(props) {
@@ -31432,7 +31437,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'contact__content' },
+	            { className: "contact__content " + (this.state.active === "contact" ? " contactActive " : "") },
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'mailto:pmarko.alt@gmail.com?subject=Introduction' },
@@ -31533,9 +31538,54 @@
 	    value: function render() {
 	      if (this.state.project) {
 	        return _react2.default.createElement(
-	          'h1',
-	          null,
-	          ' This is a link '
+	          'div',
+	          { className: 'portItem' },
+	          _react2.default.createElement(
+	            _reactRouterDom.Link,
+	            { className: 'back', to: "/" },
+	            ' BACK '
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'portItem__imageCont' },
+	            _react2.default.createElement('img', { className: 'portItem__imageCont__image', src: this.state.project.image })
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'portItem__textCont' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'portItem__textCont__headerCont' },
+	              _react2.default.createElement(
+	                'h1',
+	                { className: 'portItem__textCont__headerCont__header' },
+	                ' ',
+	                this.state.project.title,
+	                ' '
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'portItem__textCont__headerCont__linkCont' },
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: this.state.project.website, target: '_blank', className: 'portItem__textCont__headerCont__linkCont__link' },
+	                  ' Link '
+	                ),
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: this.state.project.github, target: '_blank', className: 'portItem__textCont__headerCont__linkCont__link' },
+	                  ' Github '
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'portItem__textCont__text' },
+	              ' ',
+	              this.state.project.text,
+	              ' '
+	            )
+	          )
 	        );
 	      } else {
 	        return _react2.default.createElement(_NotFoundPage2.default, null);
@@ -36071,225 +36121,49 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-
-	var _AppData;
-
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-	var AppData = (_AppData = {
-
-	  blackstar: {
-	    title: "BLACKSTAR",
-	    type: "Visual Identity, Print, Strategy",
-	    headText: ["BlackStar: Display Typeface. Created in-house mainly to be used for music projects."],
-	    cards: ['/imgs/blackstar/blackstar1.jpg', '/imgs/blackstar/blackstar2.jpg', '/imgs/blackstar/blackstar3.jpg', '/imgs/blackstar/blackstar4.jpg', '/imgs/blackstar/blackstarPort.jpg']
+	var AppData = {
+	  public: {
+	    image: "/public/imgs/publicSite.png",
+	    mobileImage: "/public/imgs/public.png",
+	    title: "PUBLIC.GROUP",
+	    text: "PUBLIC.GROUP is a design and branding firm based out of DC I have been working with since 2016 originally as a sound designer and now as a web developer. I architected and designed the new website used to display the firm’s portfolio. The website utilizes React, React Router 4, Flickity, Express, and many features utilized in Google’s Progressive Web Apps.",
+	    website: "https://www.dcpublic.com",
+	    github: "https://github.com/Pmarkoalt/PublicReact"
 	  },
-
-	  ecube: {
-	    title: "ECUBE",
-	    type: "Product Design, Information Architecture, Strategy",
-	    headText: ["Design and development of the user interface for a social loaning start-up."],
-	    cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg']
+	  rawle: {
+	    image: "/public/imgs/rawleSite.png",
+	    mobileImage: "/public/imgs/rawle.jpeg",
+	    title: "RAWLE NIGHT LONG",
+	    text: "Rawle Night Long is a Electronic Music DJ based out of Washington DC. I assisted in rebranding his image and spearheaded the redesign of his new website. The goal was create a page that is minimal, stylized, and fast which I feel was accomplished. The website utilizes AngularJS, UI Router, Express, Contentful CMS API, Twitter API, Soundcloud API, and Greensock.",
+	    website: "http://www.rawlenightlong",
+	    github: "https://github.com/Pmarkoalt/rawleNightLong"
 	  },
-
-	  eddy: {
-	    title: "EDDY",
-	    type: "Identity, Art Direction, Print",
-	    headText: ["Identity and printed matter for DC based dj Eddy Bauer."],
-	    cards: ['/imgs/eddy/eddy1.jpg', '/imgs/eddy/eddy2.jpg', '/imgs/eddy/eddy3.jpg', '/imgs/eddy/eddy4.jpg']
+	  headshoppe: {
+	    image: "/public/imgs/headshoppeSite.png",
+	    mobileImage: "/public/imgs/head.png",
+	    title: "HEADSHOPPE",
+	    text: "Headshoppe is the cultural hub for the DC art collective 1432R. 1432R is a group of electronic musicians spanning the US and Africa that focus on creating music that blends cultures together. The goal of the website was to create something that was simple and incorporated an independent commerce CMS. I collaborated on the website in the 2nd quarter of 2017 before the project was passed on to in house developers. PUBLIC.GROUP and I are currently in talks to refactor the project for React and Redux. The website utilizes Vanilla Javascript, Spring, and the Square CMS.",
+	    website: "https://www.headshoppe.net/",
+	    github: "blank"
 	  },
-
-	  eurosign: {
-	    title: "EUROSIGN",
-	    type: "Typography, Print, Editorial",
-	    headText: ["Euro-Sign: San Serif Typeface.", "Created in-house, the typeface references the euro/dutch Humanist movements in typography and Total Design."],
-	    cards: ['/imgs/eurosign/euro1.jpg', '/imgs/eurosign/euro2.jpg', '/imgs/eurosign/euro3.jpg']
+	  portfolio: {
+	    image: "/public/imgs/portfolioSite.png",
+	    mobileImage: "/public/imgs/portfolio.png",
+	    title: "PORTFOLIO TEMPLATE",
+	    text: "This portfolio was made in as an early experiment with React to incorporate imperative visual javascript libraries. The website utilizes React, Express, Sass, ThreeJS, and AOS.",
+	    website: "blank",
+	    github: "https://github.com/Pmarkoalt/Portfolio"
 	  },
-
-	  '1432r': {
-	    title: "1432R",
-	    type: "Identity, Art Direction , Print, Interactive, Strategy",
-	    headText: ["A new identity for DC based record label 1432R – from logo redesign and web development to typography and retail packaging. The new design reflects the young and unconventional spirit of the label"],
-	    cards: ['/imgs/1432r/head1.jpg', '/imgs/1432r/cover1.jpg', '/imgs/1432r/head2.jpg', '/imgs/1432r/cover2.jpg', '/imgs/1432r/head3.jpg', '/imgs/1432r/cover3.jpg', '/imgs/1432r/hat1.jpg', '/imgs/1432r/cover4.jpg', '/imgs/1432r/digital1.jpg', '/imgs/1432r/cover5.jpg', '/imgs/1432r/cover6.jpg', '/imgs/1432r/cover7.jpg', '/imgs/1432r/cover8.jpg', '/imgs/1432r/cover9.jpg']
-	  },
-
-	  blow: {
-	    title: "BLOW UP",
-	    type: "Identity, Art Direction, Print",
-	    headText: ["highlighting a central film with a central piece. Blow up."],
-	    cards: ['/imgs/blow/blowPort.png']
-	  },
-
-	  room: {
-	    title: "ROOM",
-	    type: "Identity, Art Direction , Print, Interactive, Strategy",
-	    headText: ["Direction for our editorial leg. Coming 2018."],
-	    cards: ['/imgs/room/roomPort.png', '/imgs/room/room1.jpg']
-	  },
-
-	  editorial: {
-	    title: "EDITORIALS",
-	    type: "Art Direction, Print",
-	    headText: ["Various editorial pieces"],
-	    cards: ['/imgs/editorial/editorial1.jpg', '/imgs/editorial/editorial2.jpg', '/imgs/editorial/editorial3.jpg', '/imgs/editorial/editorial4.jpg', '/imgs/editorial/editorial5.jpg', '/imgs/editorial/editorial6.jpg', '/imgs/editorial/editorial7.jpg']
-	  },
-
-	  emerge: {
-	    title: "EMERGE",
-	    type: "Identity, Art Direction , Print, Interactive, Strategy",
-	    headText: ["A new identity for DC based Emerge Art Fair."],
-	    cards: ['/imgs/emerge/emerge1.jpg', '/imgs/emerge/emerge2.jpg', '/imgs/emerge/emerge3.jpg', '/imgs/emerge/emerge4.jpg', '/imgs/emerge/emerge5.jpg']
-	  },
-
-	  newtypo: {
-	    title: "NEW TYPOGRAPHY",
-	    type: "Spatial Design, Interactive",
-	    headText: ["Exhibited at the Corcoran Gallery of Art, from April 6th- May 19th 2013.", "Design has two functions. First, it has the practical job of communication; and second, it gives objects meaning. In addition, it balances the recognizable and the innovative as society adapts to a changing environment. The future of design is an embodiment of the profoundly human need to structure our environment as a reflection of ourselves. As you view these artifacts, remember that they draw from an original point of place or context and are reassembled into a new, visually configured language. As the title implies, New Typographic Tendencies is an unorthodox and intuitive piece of graphic design about cultural and spacial exchange. the space utilizes the English and Arabic languages as placeholders for abstract representations of two different cultures and places tension between them by exposing the walls of the gallery and putting emphasis on the floor."],
-	    cards: ['/imgs/newtypo/newtypo1.png', '/imgs/newtypo/newtypo2.png', '/imgs/newtypo/newtypo3.png', '/imgs/newtypo/newtypo4.png', '/imgs/newtypo/newtypo5.jpeg', '/imgs/newtypo/newtypo6.jpeg', '/imgs/newtypo/newtypo7.jpeg', '/imgs/newtypo/newtypo8.jpeg', '/imgs/newtypo/newtypo9.jpg']
-	  },
-
-	  identity: {
-	    title: "IDENTITY *IN PROGRESS",
-	    type: "Identity, Editorial",
-	    headText: ["Identity Typeface.", "Work In Progress"],
-	    cards: ['/imgs/identity/identityPort.png']
-	  },
-
-	  // '13u': {
-	  //   title: "13TH & U",
-	  //   type: "Identity, Branding",
-	  //   headText: ["Needs Copy"],
-	  //   cards: ['/imgs/newtypo/newtypo1.png']
-	  // },
-
-	  monza: {
-	    title: "MONZA",
-	    type: "Typography, Print, Editorial",
-	    headText: ["Monza Light: Display Typeface.", "Created in-house, the typeface references the Euro-motorsport catalogs of the 1960s-70s."],
-	    cards: ['/imgs/monza/monza1.jpg', '/imgs/monza/monza2.jpg', '/imgs/monza/monza3.jpg']
-	  },
-
-	  rhizome: {
-	    title: "RHIZOME",
-	    type: "Visual Identity, Print, Strategy, Interactive",
-	    headText: ["RhizomeDC is a DC based nonprofit community arts space promoting non-commercial artistic experiences.", "We developed a new identity for the DC based artist space – from logo redesign and stationery to spatial design & printed matter. The new design reflects the young, energetic and unconventional spirit of the artists while creating a space for the experiences to stand out.", 'The Typographic Logotype is set in a custom variation of NEUE HAAS, the geometric spacing uses the "R" as framing for the events that the space holds on rotation.'],
-	    cards: ['/imgs/rhizome/rhizome1.jpg', '/imgs/rhizome/rhizome2.jpg', '/imgs/rhizome/rhizome3.jpg', '/imgs/rhizome/rhizome4.jpg', '/imgs/rhizome/rhizome5.jpg']
-	  },
-
-	  fringe: {
-	    title: "FRINGE",
-	    type: "Visual Identity, Print, Strategy, Interactive",
-	    headText: ["A word mark for DC based art fair Fringe, channeling the super-minimal direction to let the work take center stage. A bespoke san serif layout was created to be used across stationery and screen. The color was chosen to the represent the city the fair is based in."],
-	    cards: ['/imgs/fringe/fringe1.jpg', '/imgs/fringe/fringe2.jpg', '/imgs/fringe/fringe3.jpg', '/imgs/fringe/fringe4.jpg', '/imgs/fringe/fringe5.jpg']
-	  },
-
-	  sea: {
-	    title: "SPACE EXPLORATION ALLIANCE IDENTITY",
-	    type: "Visual Identity, Print, Strategy",
-	    headText: ["The Space Exploration Alliance (SEA) is a collaboration of leading non-profit organizations that advocate for the exploration and development of outer space.", "The rebrand inserts the idea of exploration and space within the identity. Spatially, the identity is very mobile and expansive."],
-	    cards: ['/imgs/sea/seaPort.jpg', '/imgs/sea/sea5.jpg', '/imgs/sea/sea4.jpg', '/imgs/sea/sea1.jpg']
+	  bandspace: {
+	    image: "/public/imgs/bandSpaceSite.png",
+	    mobileImage: "/public/imgs/amplifier.png",
+	    title: "BANDSPACE",
+	    text: "BandSpace is a now abandoned conceptual social media website used to connect independent musicians with club owners. The website utilizes React, Redux, MongoDB, Express, Passport, Google Maps API, and Sass.",
+	    website: "https://band-space.herokuapp.com/",
+	    github: "https://github.com/rdhenderson/band-space"
 	  }
 
-	}, _defineProperty(_AppData, "ecube", {
-	  title: "E CUBED.",
-	  type: "Identity, Interactive, Strategy, Product Design",
-	  headText: ["Design and development of the user interface for a social loaning start-up."],
-	  cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg']
-	}), _defineProperty(_AppData, "studios", {
-	  title: "STUDIOS ARCHITECTURE",
-	  type: "Visual Identity, Print, Strategy",
-	  headText: ["Studios Architecture is an international design practice focused on enhancing the human experience.", "The brief was to conceive a mark that was typographic yet highly recognizable and adaptable. The solution came in the form of typographic structures that convey an architectural approach to the layout. Reductive, yet it represents the Studios' ethos. The word-mark is clear, solid and contemporary, with its architectural dip beneath the baseline to suggest grid-to-grid connectivity. Supported by a strong, sophisticated color palette of black (combined with brighter accent colors for different city offices)."],
-	  cards: ['/imgs/studios/studios1.jpg', '/imgs/studios/studios2.jpg', '/imgs/studios/studios3.jpg', '/imgs/studios/studios4.jpg', '/imgs/studios/studios5.jpg']
-	}), _defineProperty(_AppData, "rawlenightlong", {
-	  title: "RAWLE NIGHT LONG",
-	  type: "Visual Identity, Interactive",
-	  headText: ["Rawle Night Long is a Electronic Music DJ based out of DC. We did a complete rebranding of his image including redesigning his logo, website, and art direction.", "The new logo and typography for the website stems from the Neue Haas Grotesque font. The website was designed with minimalism in mind utilizing shades of charcoal, white, and a hot pink offset."],
-	  cards: ['/imgs/rawlenightlong/rawle1.jpeg']
-	}), _defineProperty(_AppData, "connersmith", {
-	  title: "CONNERSMITH IDENTITY",
-	  type: "Visual Identity, Print, Strategy, Interactive",
-	  headText: ["Connersmith was Founded in 1999 by directors Leigh Conner and Dr. Jamie Smith, Connersmith specializes in Post-War and Contemporary Art and is one of DC's Contemporary go to galleries.", "The logo unites contemporary typographic elements with new spacing, and custom-designed characters. The dynamic space between the words work as a framing and representation of what the gallery outputs . This spatial language is supported by a palette of beautiful art pieces from the gallery’s past and present. The identity succeeds in showcasing what the gallery curates while keeping a personal, modern, and forward-thinking voice."],
-	  cards: ['/imgs/connersmith/conner1.jpg', '/imgs/connersmith/conner2.jpg', '/imgs/connersmith/conner3.jpg', '/imgs/connermsmith/conner4.jpg']
-	}), _defineProperty(_AppData, "omni", {
-	  title: "OMNI CONTEMPORARY",
-	  type: "Visual Identity, Print, Strategy, Interactive",
-	  headText: ["This rebrand was done for a Conditional Design workshop in Washington DC, it showcases the power of adaptive branding by rebranding the Hirshhorn museum. The Mark showcases the museum’s dynamic and unconventional voice by having different “states”. The Different states of the mark are interchangeable and create an Identity that’s always in active motion. This concept of movement and change should be embraced and reflected in all of Omni’s branding."],
-	  cards: ['/imgs/omni/omni1.jpg', '/imgs/omni/omni2.jpg', '/imgs/omni/omni3.jpg', '/imgs/omni/omni4.jpg', '/imgs/omni/omni5.jpg', '/imgs/omni/omni6.jpg', '/imgs/omni/omni7.jpg', '/imgs/omni/omni8.jpg', '/imgs/omni/omni9.jpg']
-	  // banner: '/imgs/omni/omni3.jpg',
-	  // twoPost: [
-	  //   {
-	  //     poster: '/imgs/omni/omni8.jpg',
-	  //     text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-	  //   },
-	  //   {
-	  //     poster: '/imgs/omni/omni9.jpg',
-	  //     text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-	  //   }
-	  // ],
-	}), _defineProperty(_AppData, "audiotest", {
-	  audio: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Washington_Post.ogg",
-	  cover: "http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg",
-	  title: "The River",
-	  artist: "Ali Farka",
-	  summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
-	}), _defineProperty(_AppData, "ethicsep", {
-	  audio: "/audio/lighttouch.wav",
-	  cover: "/imgs/1432r/SamiSuYung.jpg",
-	  title: "Ethics EP",
-	  artist: "Sami%SuYung",
-	  summary: ["The Ethics EP was mixed by Public for 1432R Label Heads Sami Yenigun and Joyce Lim. The project was mixed utilizing primarily stock audio plug in to achieve a dirtier Skate House aesthetic. The Ep was mixed over the span of 3 days and was received to critical acclaim.", "The release was named one of the best new singles of March 2017 by Resident Advisor."],
-	  links: [{
-	    src: "https://www.residentadvisor.net/features/2940",
-	    text: "March's Best Music 2017"
-	  }, {
-	    src: "https://samisuyung.bandcamp.com/album/ethics-ep",
-	    text: "Bandcamp Link"
-	  }]
-	}), _defineProperty(_AppData, "telegram", {
-	  title: "TELEGRAM PUBLISHING IDENTITY",
-	  type: "Visual Identity, Print, Strategy",
-	  headText: ["A choice list of international fiction’ Independent.", "Launched in 2005, Telegram is committed to publishing the best in new and classic international writing, from debut novelists to established literary heavyweights. Telegram has published literary fiction from thirteen languages, ranging from Korean, Arabic, Mongolian and Farsi to Croatian, Hungarian and Icelandic. Our authors include Maggie Gee, Dubravka Ugresic, Alberto Manguel, Eduardo Mendoza, Julio Cortazar, Ferenc Karinthy and Hassan Daoud.", "Telegram is a publishing house and a library. The collection is entirely unique: a juxtaposition of ancient and modern ethos. The rebrand resurrects this tradition."],
-	  cards: ['/imgs/telegram/telegram1.jpg', '/imgs/telegram/telegram2.jpg', '/imgs/telegram/telegram3.jpg', '/imgs/telegram/telegram4.jpg']
-	}), _defineProperty(_AppData, "visualtest", {
-	  title: "Love Magazine",
-	  type: "Brand Identites",
-	  headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-	  cards: ["http://lorempixel.com/1000/1400", "http://lorempixel.com/1300/1400", "http://lorempixel.com/500/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/650/1400", "http://lorempixel.com/1800/1400", "http://lorempixel.com/900/1300", "http://lorempixel.com/900/1400"],
-	  banner: "http://via.placeholder.com/1400x900",
-	  twoPost: [{
-	    poster: "http://lorempixel.com/900/1400",
-	    text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-	  }, {
-	    poster: "http://lorempixel.com/900/1400",
-	    text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-	  }],
-	  threePost: [{
-	    poster: "http://via.placeholder.com/900x1400",
-	    text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
-	  }, {
-	    poster: "http://via.placeholder.com/900x1400",
-	    text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
-	  }, {
-	    poster: "http://via.placeholder.com/900x1400",
-	    text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
-	  }]
-	}), _defineProperty(_AppData, "audiotest", {
-	  audio: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Washington_Post.ogg",
-	  cover: "http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg",
-	  title: "The River",
-	  artist: "Ali Farka",
-	  summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
-	}), _defineProperty(_AppData, "videotest", {
-	  video: "https://vimeo.com/128414835",
-	  title: "Stanky Leg",
-	  artist: "Da G Spot Boys",
-	  summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
-	}), _defineProperty(_AppData, "artsy", {
-	  video: "https://vimeo.com/128414835",
-	  title: "ART BASEL MIAMI PROJECTION",
-	  artist: "ARTSY 2013",
-	  summary: ["Live Projection for Artsy.", "Art Basel Miami 2013."]
-	}), _AppData);
+	};
 		exports.default = AppData;
 
 /***/ })
