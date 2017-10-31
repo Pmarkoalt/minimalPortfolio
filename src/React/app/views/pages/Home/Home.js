@@ -101,17 +101,17 @@ class Home extends Component{
               <img className={"work__content__images__item " + (this.state.public ? "displayImage" : "" )} src="/public/imgs/public.png" />
               <img className={"work__content__images__item " + (this.state.rawle ? "displayImage" : "")} src="/public/imgs/rawle.jpeg" />
               <img className={"work__content__images__item " + (this.state.head ? "displayImage" : "")} src="/public/imgs/head.png" />
-              <img id="doughnut" className={(this.state.port ? "displayImage" : "")}  src="/public/imgs/portfolio.png" />
-              <img id="amp" className={(this.state.band ? "displayImage" : "")} src="/public/imgs/amplifier.png" />
+              <img className={"work__content__images__item " + (this.state.port ? "displayImage" : "")}  src="/public/imgs/portfolio.png" />
+              <img className={"work__content__images__item " + (this.state.band ? "displayImage" : "")} src="/public/imgs/amplifier.png" />
             </div>
           </div>
         </div>
         <div className="contact">
           <h1 onClick={() => this.handleActive("contact")} className="links"> CONT@CT </h1>
           <div className={"contact__content " + (this.state.active === "contact" ? " contactActive " : "")}>
-            <a href="mailto:pmarko.alt@gmail.com?subject=Introduction">Pmarko.alt@gmail.com</a>
-            <a href="https://www.linkedin.com/in/peter-markoski/" target="_blank"> LinkedIn </a>
-            <a href="https://teamtreehouse.com/petermarkoski" target="_blank"> Team TreeHouse </a>
+            <a className="contact__content__item" href="mailto:pmarko.alt@gmail.com?subject=Introduction">Pmarko.alt@gmail.com</a>
+            <a className="contact__content__item" href="https://www.linkedin.com/in/peter-markoski/" target="_blank"> LinkedIn </a>
+            <a className="contact__content__item" href="https://teamtreehouse.com/petermarkoski" target="_blank"> Team TreeHouse </a>
           </div>
         </div>
       </div>

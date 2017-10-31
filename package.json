@@ -5,7 +5,8 @@
   "main": "./src/entry.js",
   "scripts": {
     "build": "webpack --optimize-minimze -w",
-    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2"
+    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2",
+    "prod-build": "webpack"
   },
   "author": "",
   "license": "ISC",

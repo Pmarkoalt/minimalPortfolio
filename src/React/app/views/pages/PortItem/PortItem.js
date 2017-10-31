@@ -31,7 +31,7 @@ class PortItem extends Component{
             <h1 className="portItem__textCont__headerCont__header"> {this.state.project.title} </h1>
             <div className="portItem__textCont__headerCont__linkCont">
               <a href={this.state.project.website} target="_blank" className="portItem__textCont__headerCont__linkCont__link"> Link </a>
-              <a href={this.state.project.github} target="_blank" className="portItem__textCont__headerCont__linkCont__link"> Github </a>
+              {this.state.project.github && <a href={this.state.project.github} target="_blank" className="portItem__textCont__headerCont__linkCont__link"> Github </a>}
             </div>
           </div>
           <p className="portItem__textCont__text"> {this.state.project.text} </p>

@@ -48,34 +48,39 @@ module.exports = {
     ],
     plugins : [
       // Only emit files when there are no errors
-      // new webpack.NoErrorsPlugin(),
-      // // Dedupe modules in the output
-      // new webpack.optimize.DedupePlugin(),
-      // // Minify all javascript, switch loaders to minimizing mode
-      // new webpack.optimize.UglifyJsPlugin({
-      //   mangle: true,
-      //   sourceMap: false,
-      //   compress: {
-      //     warnings: false, // Suppress uglification warnings
-      //     pure_getters: false,
-      //     unsafe: true,
-      //     unsafe_comps: true,
-      //     screw_ie8: true
-      //   },
-      //   output: {
-      //     comments: false,
-      //   },
-      //   exclude: [/\.min\.js$/gi] // skip pre-minified libs
-      // }),
-      // new webpack.IgnorePlugin(/^\.\/locale$/, [/moment$/]),
-      // new webpack.NoErrorsPlugin(),
-      // new CompressionPlugin({
-      //   asset: "[path].gz[query]",
-      //   algorithm: "gzip",
-      //   test: /\.js$|\.css$|\.html$/,
-      //   threshold: 10240,
-      //   minRatio: 0
-      // })
+      new webpack.NoErrorsPlugin(),
+      // Dedupe modules in the output
+      new webpack.optimize.DedupePlugin(),
+      // Minify all javascript, switch loaders to minimizing mode
+      new webpack.optimize.UglifyJsPlugin({
+        mangle: true,
+        sourceMap: false,
+        compress: {
+          warnings: false, // Suppress uglification warnings
+          pure_getters: false,
+          unsafe: true,
+          unsafe_comps: true,
+          screw_ie8: true
+        },
+        output: {
+          comments: false,
+        },
+        exclude: [/\.min\.js$/gi] // skip pre-minified libs
+      }),
+      new webpack.IgnorePlugin(/^\.\/locale$/, [/moment$/]),
+      new webpack.NoErrorsPlugin(),
+      new CompressionPlugin({
+        asset: "[path].gz[query]",
+        algorithm: "gzip",
+        test: /\.js$|\.css$|\.html$/,
+        threshold: 10240,
+        minRatio: 0
+      }),
+      new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: JSON.stringify('production')
+        }
+      }),
     ],
     // devtool: "cheap-module-source-map",
     devtool: "cheap-module-source-map"

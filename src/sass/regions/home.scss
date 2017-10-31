@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   margin-left: 100px;
+  transition: all 1s;
 }
 
 
@@ -19,14 +20,14 @@
     margin-top: 0px;
     margin-bottom: 0px;
     box-shadow: 0px 0px #c5c5c580;
-    transition: all 1s;
+    transition: height 1s, box-shadow 1s, margin-top 1s, margin-bottom 1s;
     overflow: hidden;
     height: 0px;
 
 
     &__text{
       font-family: sans-serif;
-      font-size: 18px;
+      font-size: 1.3vw;
       line-height: 28px;
       margin: 10px;
       padding: 10px;
@@ -80,7 +81,7 @@
       position: relative;
 
       &__item{
-        width: 600px;
+        width: 50%;
         position: absolute;
         opacity: 0;
         transition: all .2s;
@@ -109,12 +110,31 @@
 .contact{
 
   &__content{
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    transition: height 1s;
+    overflow: hidden;
+
+    &__item{
+      font-family: sans-serif;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      font-size: 20px;
+      text-decoration: none;
+      transition: all .2s;
+    }
+
+    &__item:hover{
+      color: #fc049c;
+    }
 
   }
 }
 
 .contactActive{
-
+  height: 200px;
 }
 
 
@@ -141,15 +161,86 @@
   opacity: 1 !important;
 }
 
-#amp{
-  width: 200px;
-  position: absolute;
-  opacity: 0;
-  transition: .2s all;
+/*
+===================================
+    MEDIA QUERIES
+===================================
+*/
+
+@media (max-width: 1200px) {
+  .infoActive{
+    height: 250px;
+    width: 600px;
+  }
+
+  .info__content__text{
+    font-size: 18px;
+  }
+
+  .workActive{
+    height: 250px;
+  }
+
 }
 
-#doughnut{
-  position: absolute;
-  opacity: 0;
-  transition: .2s all;
+@media (max-width: 960px) {
+  .work__content__text{
+    flex-direction: column;
+  }
+
+  .work__content__text__list{
+    margin-top: 10px;
+  }
+
+  // .workActive{
+  //   height: 250px;
+  // }
+
+}
+
+@media (max-width: 760px) {
+
+  .infoActive{
+    width: 80vw;
+  }
+
+  .info__content__text{
+    font-size: 2.4vw;
+  }
+
+  #home{
+    margin-left: 10px;
+  }
+
+  .workActive{
+    height: 300px;
+  }
+
+
+
+}
+
+@media (max-width: 560px) {
+  .infoActive{
+    width: 100%;
+  }
+
+  .info__content{
+    width: 100%;
+    margin-left: -10px;
+  }
+
+  .info__content__text{
+    font-size: 3.3vw;
+  }
+
+  .work__content__images{
+    display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+
 }
