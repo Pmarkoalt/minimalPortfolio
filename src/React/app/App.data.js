@@ -27,7 +27,7 @@ const AppData = {
     mobileImage: "/public/imgs/portfolio.png",
     title: "PORTFOLIO TEMPLATE",
     text: "This portfolio was made in as an early experiment with React to incorporate imperative visual javascript libraries. The website utilizes React, Express, Sass, ThreeJS, and AOS.",
-    website: "https://d2o8c8ao8mcv8v.cloudfront.net/",
+    website: "https://frightening-cemetery-99407.herokuapp.com/",
     github: "https://github.com/Pmarkoalt/Portfolio"
   },
   bandspace: {
