@@ -1,7 +1,7 @@
 const AppData = {
   public: {
-    image: "/public/imgs/publicSite.png",
-    mobileImage: "/public/imgs/public.jpg",
+    image: "/public/imgs/publicSite.jpg",
+    mobileImage: "/public/imgs/public.png",
     title: "PUBLIC.GROUP",
     text: "PUBLIC.GROUP is a design and branding firm based out of DC I have been working with since 2016 originally as a sound designer and now as a web developer. I architected and designed the new website used to display the firm’s portfolio. The website utilizes React, React Router 4, Flickity, Express, and many features utilized in Google’s Progressive Web Apps.",
     website: "http://dcpublic.group",
@@ -16,7 +16,7 @@ const AppData = {
     github: "https://github.com/Pmarkoalt/rawleNightLong"
   },
   headshoppe: {
-    image: "/public/imgs/headshoppeSite.png",
+    image: "/public/imgs/headshoppeSite.jpg",
     mobileImage: "/public/imgs/head.png",
     title: "HEADSHOPPE",
     text: "Headshoppe is the cultural hub for the DC art collective 1432R. 1432R is a group of electronic musicians spanning the US and Africa that focus on creating music that blends cultures together. The goal of the website was to create something that was simple and incorporated an independent commerce CMS. I collaborated on the website in the 2nd quarter of 2017 before the project was passed on to in house developers. PUBLIC.GROUP and I are currently in talks to refactor the project for React and Redux. The website utilizes Vanilla Javascript, Spring, and the Square CMS.",
