@@ -1,7 +1,7 @@
 const AppData = {
   public: {
     image: "/public/imgs/publicSite.png",
-    mobileImage: "/public/imgs/public.png",
+    mobileImage: "/public/imgs/public.jpg",
     title: "PUBLIC.GROUP",
     text: "PUBLIC.GROUP is a design and branding firm based out of DC I have been working with since 2016 originally as a sound designer and now as a web developer. I architected and designed the new website used to display the firm’s portfolio. The website utilizes React, React Router 4, Flickity, Express, and many features utilized in Google’s Progressive Web Apps.",
     website: "http://dcpublic.group",

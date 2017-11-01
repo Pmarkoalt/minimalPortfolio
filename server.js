@@ -8,12 +8,9 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 
+// app.use(express.static(__dirname + './', {maxage: '7d'}));
 app.use(express.static(__dirname + './'));
-//compression filter
-function shouldCompress(req, res) {
-  if (req.headers["x-no-compression"]) return false;
-  return compression.filter(req, res);
-}
+
 //set up compression and static dir
 app.use(expressStaticGzip("./"));
 app.use(compression({
