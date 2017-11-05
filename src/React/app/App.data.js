@@ -31,7 +31,7 @@ const AppData = {
     github: "https://github.com/Pmarkoalt/Portfolio"
   },
   bandspace: {
-    image: "/public/imgs/bandSpaceSite.png",
+    image: "/public/imgs/bandSpaceSite.jpg",
     mobileImage: "/public/imgs/amplifier.png",
     title: "BANDSPACE",
     text: "BandSpace is a now abandoned conceptual social media website used to connect independent musicians with club owners. The website utilizes React, Redux, MongoDB, Express, Passport, Google Maps API, and Sass.",
