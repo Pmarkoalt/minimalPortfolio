@@ -112,6 +112,7 @@ class Home extends Component{
             <a className="contact__content__item" href="mailto:pmarko.alt@gmail.com?subject=Introduction">Pmarko.alt@gmail.com</a>
             <a className="contact__content__item" href="https://www.linkedin.com/in/peter-markoski/" target="_blank"> LinkedIn </a>
             <a className="contact__content__item" href="https://teamtreehouse.com/petermarkoski" target="_blank"> Team TreeHouse </a>
+            <img id="headshot" src="/public/imgs/headshot.jpg" />
           </div>
         </div>
       </div>
